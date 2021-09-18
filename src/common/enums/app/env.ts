@@ -1,0 +1,8 @@
+import { API_USER_ORIGIN_URL, API_PREFIX, API_FOTO_ORIGIN_URL } from '@env'
+
+const ENV = {
+  API_USER_PATH: `${API_USER_ORIGIN_URL + API_PREFIX}`,
+  API_FOTO_PATH: `${API_FOTO_ORIGIN_URL}`
+} as const
+
+export { ENV }

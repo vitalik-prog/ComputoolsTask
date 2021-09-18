@@ -1,0 +1,1 @@
+export { PhotoApiPath } from './photoApiPath'
